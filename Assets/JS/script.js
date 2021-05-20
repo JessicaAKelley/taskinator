@@ -248,7 +248,7 @@ var deleteTask = function (taskId) {
 };
 
 var saveTasks = function() {
-  localStorage.setItem("tasks", JSON.stringify(tasks));
+    localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
 var loadTasks = function() {
